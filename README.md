@@ -167,14 +167,6 @@ HexSoftwares Python Programming Internship
 
 ---
 
-##  Contributing
-
-Contributions are welcome!
-
-If you would like to improve this project, feel free to fork the repository and submit a pull request.
-
----
-
 ##  License
 
 This project is created for educational and internship purposes.
