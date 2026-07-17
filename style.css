@@ -1,0 +1,373 @@
+/* ==========================================
+   GOOGLE FONT
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ==========================================
+   MAIN APP
+========================================== */
+
+html,
+body,
+[class*="css"] {
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.stApp{
+
+    background: linear-gradient(135deg,#0F172A,#1E3A8A,#2563EB);
+
+    background-size:400% 400%;
+
+    animation:bgAnimation 15s ease infinite;
+
+    color:white;
+
+}
+
+/* ==========================================
+   ANIMATED BACKGROUND
+========================================== */
+
+@keyframes bgAnimation{
+
+0%{
+
+background-position:0% 50%;
+
+}
+
+50%{
+
+background-position:100% 50%;
+
+}
+
+100%{
+
+background-position:0% 50%;
+
+}
+
+}
+
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.hero{
+
+background:rgba(255,255,255,.12);
+
+backdrop-filter:blur(20px);
+
+padding:45px;
+
+border-radius:25px;
+
+text-align:center;
+
+border:1px solid rgba(255,255,255,.25);
+
+margin-bottom:30px;
+
+box-shadow:0px 15px 35px rgba(0,0,0,.25);
+
+}
+
+.hero h1{
+
+color:white;
+
+font-size:52px;
+
+font-weight:700;
+
+margin-bottom:10px;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+color:#E5E7EB;
+
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.card{
+
+background:rgba(255,255,255,.10);
+
+backdrop-filter:blur(18px);
+
+padding:25px;
+
+border-radius:20px;
+
+border:1px solid rgba(255,255,255,.2);
+
+margin-bottom:25px;
+
+transition:.4s;
+
+box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+}
+
+/* ==========================================
+   HEADINGS
+========================================== */
+
+h1,h2,h3,h4{
+
+color:white !important;
+
+}
+
+/* ==========================================
+   TEXT
+========================================== */
+
+p,label,span,div{
+
+color:white;
+
+}
+
+/* ==========================================
+   METRIC CARDS
+========================================== */
+
+[data-testid="metric-container"]{
+
+background:rgba(255,255,255,.12);
+
+padding:20px;
+
+border-radius:18px;
+
+border:1px solid rgba(255,255,255,.25);
+
+box-shadow:0px 5px 20px rgba(0,0,0,.25);
+
+transition:.3s;
+
+}
+
+[data-testid="metric-container"]:hover{
+
+transform:scale(1.05);
+
+}
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.stButton>button{
+
+width:100%;
+
+background:#2563EB;
+
+color:white;
+
+border:none;
+
+border-radius:12px;
+
+padding:12px;
+
+font-size:18px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.stButton>button:hover{
+
+background:#1D4ED8;
+
+transform:scale(1.03);
+
+}
+
+/* ==========================================
+   DOWNLOAD BUTTON
+========================================== */
+
+.stDownloadButton>button{
+
+width:100%;
+
+background:#16A34A;
+
+color:white;
+
+border:none;
+
+padding:12px;
+
+border-radius:12px;
+
+font-size:18px;
+
+font-weight:600;
+
+}
+
+.stDownloadButton>button:hover{
+
+background:#15803D;
+
+}
+
+/* ==========================================
+   SIDEBAR
+========================================== */
+
+section[data-testid="stSidebar"]{
+
+background:#0F172A;
+
+}
+
+section[data-testid="stSidebar"] *{
+
+color:white !important;
+
+}
+
+/* ==========================================
+   ALERT BOX
+========================================== */
+
+.stAlert{
+
+border-radius:15px;
+
+}
+
+/* ==========================================
+   LINKS
+========================================== */
+
+a{
+
+color:#38BDF8 !important;
+
+font-weight:bold;
+
+text-decoration:none;
+
+}
+
+a:hover{
+
+color:white !important;
+
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.footer{
+
+background:rgba(255,255,255,.10);
+
+backdrop-filter:blur(18px);
+
+padding:25px;
+
+margin-top:30px;
+
+border-radius:20px;
+
+text-align:center;
+
+border:1px solid rgba(255,255,255,.2);
+
+box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+}
+
+.footer h3{
+
+color:white;
+
+}
+
+.footer p{
+
+color:#E5E7EB;
+
+}
+
+/* ==========================================
+   HORIZONTAL LINE
+========================================== */
+
+hr{
+
+border:1px solid rgba(255,255,255,.2);
+
+}
+
+/* ==========================================
+   IMAGE
+========================================== */
+
+img{
+
+border-radius:12px;
+
+}
+
+/* ==========================================
+   SCROLLBAR
+========================================== */
+
+::-webkit-scrollbar{
+
+width:8px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#0F172A;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#3B82F6;
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#2563EB;
+
+}
